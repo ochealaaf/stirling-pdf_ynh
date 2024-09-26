@@ -16,8 +16,11 @@
 
 ## 概况
 
-This is a dummy description of this app features
+This is a robust, locally hosted web-based PDF manipulation tool using Docker. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
 
+Stirling PDF does not initiate any outbound calls for record-keeping or tracking purposes.
+
+All files and PDFs exist either exclusively on the client side, reside in server memory only during task execution, or temporarily reside in a file solely for the execution of the task. Any file downloaded by the user will have been deleted from the server by that point.
 
 **分发版本：** 0.29.0~ynh1
 
@@ -25,7 +28,7 @@ This is a dummy description of this app features
 
 ## 截图
 
-![Stirling PDF 的截图](./doc/screenshots/stirling-home.jpg)
+![Stirling PDF 的截图](./doc/screenshots/screenshot.jpg)
 
 ## 文档与资源
 
