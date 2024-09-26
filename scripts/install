@@ -17,7 +17,7 @@ ynh_setup_source --dest_dir="$install_dir"
 chown -R "$app:www-data" "$install_dir"
 
 ynh_setup_source --dest_dir="$install_dir/jdk" --source_id="jdk"
-export JAVA_HOME=$install_dir/jdk
+#export JAVA_HOME=$install_dir/jdk
 
 #=================================================
 # APP INITIAL CONFIGURATION
@@ -37,7 +37,7 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Perform various operations on PDF files" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

@@ -16,21 +16,25 @@ NON debe editarse manualmente.
 
 ## Vista xeral
 
-This is a dummy description of this app features
+This is a robust, locally hosted web-based PDF manipulation tool using Docker. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
 
+Stirling PDF does not initiate any outbound calls for record-keeping or tracking purposes.
+
+All files and PDFs exist either exclusively on the client side, reside in server memory only during task execution, or temporarily reside in a file solely for the execution of the task. Any file downloaded by the user will have been deleted from the server by that point.
 
 **Versión proporcionada:** 0.29.0~ynh1
 
-**Demo:** <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
+**Demo:** <https://stirlingpdf.io/>
 
 ## Capturas de pantalla
 
-![Captura de pantalla de Stirling PDF](./doc/screenshots/example.jpg)
+![Captura de pantalla de Stirling PDF](./doc/screenshots/screenshot.jpg)
 
 ## Documentación e recursos
 
-- Web oficial da app: <https://example.com>
+- Web oficial da app: <https://www.stirlingpdf.com/>
 - Documentación oficial para usuarias: <https://docs.stirlingpdf.com/>
+- Documentación oficial para admin: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Repositorio de orixe do código: <https://github.com/Stirling-Tools/Stirling-PDF>
 - Tenda YunoHost: <https://apps.yunohost.org/app/stirling>
 - Informar dun problema: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
