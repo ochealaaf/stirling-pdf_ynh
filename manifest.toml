@@ -41,6 +41,13 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["de-DE", "fr-FR", "en-US"]
+    default = "fr-FR"
+
 [resources]
 
     [resources.sources]
@@ -76,4 +83,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "tesseract-ocr-fra"
+    packages = "tesseract-ocr-fra, libreoffice-writer, libreoffice-calc, libreoffice-impress, unpaper, ocrmypdf"
