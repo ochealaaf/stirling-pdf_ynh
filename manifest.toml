@@ -83,4 +83,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "tesseract-ocr-fra, libreoffice-writer, libreoffice-calc, libreoffice-impress, unpaper, ocrmypdf, pip3, install, uno, opencv-python-headless, unoconv, pngquant, WeasyPrint"
+    packages = "tesseract-ocr-fra, libreoffice-writer, libreoffice-calc, libreoffice-impress, unpaper, ocrmypdf"
