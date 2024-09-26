@@ -17,15 +17,14 @@ ynh_setup_source --dest_dir="$install_dir"
 chown -R "$app:www-data" "$install_dir"
 
 ynh_setup_source --dest_dir="$install_dir/jdk" --source_id="jdk"
-#export JAVA_HOME=$install_dir/jdk
 
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration files..."
 
-ynh_config_add --template=".env" --destination="$install_dir/.env"
-
+mkdir "$install_dir/configs"
+ynh_config_add --template="settings.yml" --destination="$install_dir/configs/settings.yml"
 ynh_config_add --template="custom_settings.yml" --destination="$install_dir/configs/custom_settings.yml"
 
 #=================================================
