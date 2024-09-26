@@ -25,8 +25,6 @@ ynh_setup_source --dest_dir="$install_dir/jdk" --source_id="jdk"
 ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
-mkdir "$install_dir/configs"
-ynh_config_add --template="custom_settings.yml" --destination="$install_dir/configs/custom_settings.yml"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -45,6 +43,8 @@ yunohost service add "$app" --description="Perform various operations on PDF fil
 ynh_script_progression "Starting $app's systemd service..."
 
 ynh_systemctl --service="$app" --action="start"
+
+ynh_config_add --template="custom_settings.yml" --destination="$install_dir/configs/custom_settings.yml"
 
 #=================================================
 # END OF SCRIPT
