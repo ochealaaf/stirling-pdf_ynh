@@ -21,16 +21,17 @@ This is a dummy description of this app features
 
 **分发版本：** 0.29.0~ynh1
 
-**演示：** <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
+**演示：** <https://stirlingpdf.io/>
 
 ## 截图
 
-![Stirling PDF 的截图](./doc/screenshots/example.jpg)
+![Stirling PDF 的截图](./doc/screenshots/stirling-home.jpg)
 
 ## 文档与资源
 
-- 官方应用网站： <https://example.com>
+- 官方应用网站： <https://www.stirlingpdf.com/>
 - 官方用户文档： <https://docs.stirlingpdf.com/>
+- 官方管理文档： <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - 上游应用代码库： <https://github.com/Stirling-Tools/Stirling-PDF>
 - YunoHost 商店： <https://apps.yunohost.org/app/stirling>
 - 报告 bug： <https://github.com/YunoHost-Apps/stirling_ynh/issues>

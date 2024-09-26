@@ -21,16 +21,17 @@ This is a dummy description of this app features
 
 **Paketatutako bertsioa:** 0.29.0~ynh1
 
-**Demoa:** <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
+**Demoa:** <https://stirlingpdf.io/>
 
 ## Pantaila-argazkiak
 
-![Stirling PDF(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![Stirling PDF(r)en pantaila-argazkia](./doc/screenshots/stirling-home.jpg)
 
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://example.com>
+- Aplikazioaren webgune ofiziala: <https://www.stirlingpdf.com/>
 - Erabiltzaileen dokumentazio ofiziala: <https://docs.stirlingpdf.com/>
+- Administratzaileen dokumentazio ofiziala: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/Stirling-Tools/Stirling-PDF>
 - YunoHost Denda: <https://apps.yunohost.org/app/stirling>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/stirling_ynh/issues>

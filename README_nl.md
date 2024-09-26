@@ -21,16 +21,17 @@ This is a dummy description of this app features
 
 **Geleverde versie:** 0.29.0~ynh1
 
-**Demo:** <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
+**Demo:** <https://stirlingpdf.io/>
 
 ## Schermafdrukken
 
-![Schermafdrukken van Stirling PDF](./doc/screenshots/example.jpg)
+![Schermafdrukken van Stirling PDF](./doc/screenshots/stirling-home.jpg)
 
 ## Documentatie en bronnen
 
-- Officiele website van de app: <https://example.com>
+- Officiele website van de app: <https://www.stirlingpdf.com/>
 - Officiele gebruikersdocumentatie: <https://docs.stirlingpdf.com/>
+- Officiele beheerdersdocumentatie: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Upstream app codedepot: <https://github.com/Stirling-Tools/Stirling-PDF>
 - YunoHost-store: <https://apps.yunohost.org/app/stirling>
 - Meld een bug: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
