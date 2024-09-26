@@ -21,16 +21,17 @@ This is a dummy description of this app features
 
 **Versi terkirim:** 0.29.0~ynh1
 
-**Demo:** <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
+**Demo:** <https://stirlingpdf.io/>
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Stirling PDF](./doc/screenshots/example.jpg)
+![Tangkapan Layar pada Stirling PDF](./doc/screenshots/stirling-home.jpg)
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://example.com>
+- Website aplikasi resmi: <https://www.stirlingpdf.com/>
 - Dokumentasi pengguna resmi: <https://docs.stirlingpdf.com/>
+- Dokumentasi admin resmi: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Depot kode aplikasi hulu: <https://github.com/Stirling-Tools/Stirling-PDF>
 - Gudang YunoHost: <https://apps.yunohost.org/app/stirling>
 - Laporkan bug: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
