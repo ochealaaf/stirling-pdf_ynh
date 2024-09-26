@@ -1,3 +1,7 @@
+server:
+  address: 127.0.0.1
+  port: __PORT__
+
 security:
   enableLogin: false # set to 'true' to enable login
   csrfDisabled: true # Set to 'true' to disable CSRF protection (not recommended for production)
@@ -54,7 +58,3 @@ endpoints:
 
 metrics:
   enabled: true # 'true' to enable Info APIs (`/api/*`) endpoints, 'false' to disable
-
-server:
-  address: 127.0.0.1
-  port: __PORT__
