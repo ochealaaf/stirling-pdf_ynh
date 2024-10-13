@@ -1,5 +1,1 @@
-Il s'agit d'un outil de manipulation de PDF robuste, hébergé localement et basé sur le Web, utilisant Docker. Il vous permet d'effectuer diverses opérations sur des fichiers PDF, notamment le fractionnement, la fusion, la conversion, la réorganisation, l'ajout d'images, la rotation, la compression, etc. Cette application Web hébergée localement a évolué pour englober un ensemble complet de fonctionnalités, répondant à toutes vos exigences PDF.
-
-Stirling PDF n'initie aucun appel sortant à des fins de tenue de registres ou de suivi.
-
-Tous les fichiers et PDF existent soit exclusivement côté client, résident dans la mémoire du serveur uniquement pendant l'exécution de la tâche, soit résident temporairement dans un fichier uniquement pour l'exécution de la tâche. Tout fichier téléchargé par l'utilisateur aura été supprimé du serveur à ce stade.
+Il s'agit d'un outil de manipulation de PDF robuste, hébergé localement et basé sur le Web. Il vous permet d'effectuer diverses opérations sur des fichiers PDF, notamment le fractionnement, la fusion, la conversion, la réorganisation, l'ajout d'images, la rotation, la compression, etc. Cette application Web hébergée localement a évolué pour englober un ensemble complet de fonctionnalités, répondant à toutes vos exigences PDF.
