@@ -5,9 +5,9 @@ NON debe editarse manualmente.
 
 # Stirling PDF para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/stirling.svg)](https://ci-apps.yunohost.org/ci/apps/stirling/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/stirling.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/stirling.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/stirling-pdf.svg)](https://ci-apps.yunohost.org/ci/apps/stirling-pdf/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.maintain.svg)
 
-[![Instalar Stirling PDF con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling)
+[![Instalar Stirling PDF con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling-pdf)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
@@ -16,11 +16,18 @@ NON debe editarse manualmente.
 
 ## Vista xeral
 
-This is a robust, locally hosted web-based PDF manipulation tool using Docker. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
+This is a robust, locally hosted web-based PDF manipulation tool. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
 
-Stirling PDF does not initiate any outbound calls for record-keeping or tracking purposes.
+### Features
 
-All files and PDFs exist either exclusively on the client side, reside in server memory only during task execution, or temporarily reside in a file solely for the execution of the task. Any file downloaded by the user will have been deleted from the server by that point.
+- Dark mode support.
+- Custom download options
+- Parallel file processing and downloads
+- Custom 'Pipelines' to run multiple features in a queue
+- API for integration with external scripts
+- Optional Login and Authentication support (see here for documentation)
+- Database Backup and Import (see here for documentation)
+
 
 **Versión proporcionada:** 0.29.0~ynh1
 
@@ -36,19 +43,19 @@ All files and PDFs exist either exclusively on the client side, reside in server
 - Documentación oficial para usuarias: <https://docs.stirlingpdf.com/>
 - Documentación oficial para admin: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Repositorio de orixe do código: <https://github.com/Stirling-Tools/Stirling-PDF>
-- Tenda YunoHost: <https://apps.yunohost.org/app/stirling>
-- Informar dun problema: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
+- Tenda YunoHost: <https://apps.yunohost.org/app/stirling-pdf>
+- Informar dun problema: <https://github.com/YunoHost-Apps/stirling-pdf_ynh/issues>
 
 ## Info de desenvolvemento
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/stirling_ynh/tree/testing).
+Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing).
 
 Para probar a rama `testing`, procede deste xeito:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade stirling -u https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app upgrade stirling-pdf -u https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 ```
 
 **Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>

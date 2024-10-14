@@ -2,7 +2,7 @@
 
 packaging_format = 2
 
-id = "stirling"
+id = "stirling-pdf"
 name = "Stirling PDF"
 description.en = "Application that allows you to perform various operations on PDF files"
 description.fr = "Application qui vous permet d'effectuer diverses opérations sur des fichiers PDF"

@@ -5,9 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Stirling PDF voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/stirling.svg)](https://ci-apps.yunohost.org/ci/apps/stirling/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/stirling.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/stirling.maintain.svg)
+[![Integratieniveau](https://dash.yunohost.org/integration/stirling-pdf.svg)](https://ci-apps.yunohost.org/ci/apps/stirling-pdf/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.maintain.svg)
 
-[![Stirling PDF met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling)
+[![Stirling PDF met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling-pdf)
 
 *[Deze README in een andere taal lezen.](./ALL_README.md)*
 
@@ -16,11 +16,18 @@ Hij mag NIET handmatig aangepast worden.
 
 ## Overzicht
 
-This is a robust, locally hosted web-based PDF manipulation tool using Docker. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
+This is a robust, locally hosted web-based PDF manipulation tool. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
 
-Stirling PDF does not initiate any outbound calls for record-keeping or tracking purposes.
+### Features
 
-All files and PDFs exist either exclusively on the client side, reside in server memory only during task execution, or temporarily reside in a file solely for the execution of the task. Any file downloaded by the user will have been deleted from the server by that point.
+- Dark mode support.
+- Custom download options
+- Parallel file processing and downloads
+- Custom 'Pipelines' to run multiple features in a queue
+- API for integration with external scripts
+- Optional Login and Authentication support (see here for documentation)
+- Database Backup and Import (see here for documentation)
+
 
 **Geleverde versie:** 0.29.0~ynh1
 
@@ -36,19 +43,19 @@ All files and PDFs exist either exclusively on the client side, reside in server
 - Officiele gebruikersdocumentatie: <https://docs.stirlingpdf.com/>
 - Officiele beheerdersdocumentatie: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Upstream app codedepot: <https://github.com/Stirling-Tools/Stirling-PDF>
-- YunoHost-store: <https://apps.yunohost.org/app/stirling>
-- Meld een bug: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
+- YunoHost-store: <https://apps.yunohost.org/app/stirling-pdf>
+- Meld een bug: <https://github.com/YunoHost-Apps/stirling-pdf_ynh/issues>
 
 ## Ontwikkelaarsinformatie
 
-Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/stirling_ynh/tree/testing).
+Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing).
 
 Om de `testing`-branch uit te proberen, ga als volgt te werk:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 of
-sudo yunohost app upgrade stirling -u https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app upgrade stirling-pdf -u https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 ```
 
 **Verdere informatie over app-packaging:** <https://yunohost.org/packaging_apps>
