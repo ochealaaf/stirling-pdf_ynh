@@ -5,9 +5,9 @@
 
 # Stirling PDF для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/stirling.svg)](https://ci-apps.yunohost.org/ci/apps/stirling/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/stirling.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/stirling.maintain.svg)
+[![Уровень интеграции](https://dash.yunohost.org/integration/stirling-pdf.svg)](https://ci-apps.yunohost.org/ci/apps/stirling-pdf/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/stirling-pdf.maintain.svg)
 
-[![Установите Stirling PDF с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling)
+[![Установите Stirling PDF с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=stirling-pdf)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
@@ -43,19 +43,19 @@ This is a robust, locally hosted web-based PDF manipulation tool. It enables you
 - Официальная документация пользователя: <https://docs.stirlingpdf.com/>
 - Официальная документация администратора: <https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LocalRunGuide.md>
 - Репозиторий кода главной ветки приложения: <https://github.com/Stirling-Tools/Stirling-PDF>
-- Магазин YunoHost: <https://apps.yunohost.org/app/stirling>
-- Сообщите об ошибке: <https://github.com/YunoHost-Apps/stirling_ynh/issues>
+- Магазин YunoHost: <https://apps.yunohost.org/app/stirling-pdf>
+- Сообщите об ошибке: <https://github.com/YunoHost-Apps/stirling-pdf_ynh/issues>
 
 ## Информация для разработчиков
 
-Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/stirling_ynh/tree/testing).
+Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing).
 
 Чтобы попробовать ветку `testing`, пожалуйста, сделайте что-то вроде этого:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 или
-sudo yunohost app upgrade stirling -u https://github.com/YunoHost-Apps/stirling_ynh/tree/testing --debug
+sudo yunohost app upgrade stirling-pdf -u https://github.com/YunoHost-Apps/stirling-pdf_ynh/tree/testing --debug
 ```
 
 **Больше информации о пакетировании приложений:** <https://yunohost.org/packaging_apps>
