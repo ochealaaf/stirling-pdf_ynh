@@ -57,7 +57,7 @@ ram.runtime = "500M"
     in_subdir = false
     rename= "Stirling-PDF.jar"
     url = "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v0.33.1/Stirling-PDF.jar"
-    sha256 = "62A8B613063FBE7C244BF3DCA380120F3F9931BE9827C6F61B642F14DACA5268"
+    sha256 = "62a8b613063fbe7c244bf3dca380120f3f9931be9827c6f61b642f14daca5268"
 
     # autoupdate.strategy = "latest_github_tag"
 
